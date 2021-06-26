@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/flContainer"
+    tools:context=".transaction.AddContactActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardVIEW1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/app_bar_main"
+            layout="@layout/app_bar_contact" />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tl_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="@dimen/dp_10"
+        android:backgroundTint="@color/green_dark"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/white"
+            android:drawablePadding="@dimen/dp_5"
+            android:fontFamily="sans-serif-light"
+            android:hint="@string/enter_full_name"
+             />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tl_number"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="@dimen/dp_10"
+            android:backgroundTint="@color/green_dark"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_number"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="@color/white"
+                android:drawablePadding="@dimen/dp_5"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/mobile_number"
+                android:inputType="number"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tl_business"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="@dimen/dp_10"
+            android:backgroundTint="@color/green_dark"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_business"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="@color/white"
+                android:drawablePadding="@dimen/dp_5"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/enter_business_name"
+                 />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tl_commodity"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="@dimen/dp_10"
+            android:backgroundTint="@color/green_dark"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_commodity"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="@color/white"
+                android:drawablePadding="@dimen/dp_5"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/commodity"
+                 />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tl_location"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="@dimen/dp_10"
+            android:backgroundTint="@color/green_dark"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_location"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="@color/white"
+                android:drawablePadding="@dimen/dp_5"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/location"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <!--<androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnaddd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="@drawable/green_card_2"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="@string/add"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_20"/>-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnaddd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="@drawable/green_card_2"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:text="@string/add"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_18"
+        android:layout_marginTop="20dp"/>
+  </LinearLayout>

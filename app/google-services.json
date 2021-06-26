@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "178780033789",
+    "firebase_url": "https://ujwaal2-default-rtdb.firebaseio.com",
+    "project_id": "ujwaal2",
+    "storage_bucket": "ujwaal2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178780033789:android:cd7a4643e0749af572a494",
+        "android_client_info": {
+          "package_name": "com.nipun.ujjawal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178780033789-7ogk7jjmqmd9jkc7jf3c4citrokkclf4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nipun.ujjawal",
+            "certificate_hash": "046149fad4c60cf1ab7f6e500e3560855744305e"
+          }
+        },
+        {
+          "client_id": "178780033789-839uqvfs2n0u7slk9329gan060f22j6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0rsqQBrOeljjHIVJuWy4x2Yy12GnzPmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178780033789-839uqvfs2n0u7slk9329gan060f22j6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
