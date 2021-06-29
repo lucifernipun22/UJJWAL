@@ -234,6 +234,7 @@
                                 android:paddingEnd="@dimen/dp_20"
                                 android:background="@drawable/green_card_2"/>
                             <androidx.appcompat.widget.AppCompatButton
+                               android:id="@+id/BtnCall"
                                 android:layout_width="@dimen/dp_150"
                                 android:layout_height="@dimen/dp_40"
                                 android:layout_marginTop="@dimen/dp_50"

@@ -109,5 +109,25 @@
     <string name="SellCommodities">कमोडिटी बेचें</string>
     <string name="call">कॉल</string>
     <string name="number">121</string>
-
+    <string name="language">भाषा</string>
+    <string name="select_your_language">अपनी भाषा का चयन करें</string>
+    <string name="kyc">केवाईसी</string>
+    <string name="complete_your_kyc">अपना केवाईसी पूरा करें</string>
+    <string name="bank_account">बैंक खाता</string>
+    <string name="add_bank_account_details">बैंक खाता विवरण जोड़ें</string>
+    <string name="refer_to_earn">कमाई का संदर्भ लें</string>
+    <string name="refer_your_friends_to_earn_cash">नकद कमाने के लिए अपने दोस्तों को देखें</string>
+    <string name="rate_us">हमें रेटिंग दें</string>
+    <string name="your_feedback_is_valuable_to_us">आपकी प्रतिक्रिया हमारे लिए बहुमूल्य है</string>
+    <string name="my_profile">मेरी प्रोफाइल</string>
+    <string name="news">समाचार</string>
+    <string name="NewsAppBar">कृषि समाचार</string>
+    <string name="Aa">आ</string>
+    <string name="Help">सहायता?</string>
+    <string name="Select_Profile">कृपया अपना प्रोफ़ाइल चुनें</string>
+    <string name="CommissionAgent">कमीशन एजेंट</string>
+    <string name="Supplier">किसान</string>
+    <string name="Buyer">खरीददार</string>
+    <string name="Add_Supplyer">नया सप्लायर जोड़ो</string>
+    <string name="enter_crop_img_path">फसल छवि पथ दर्ज करें</string>
 </resources>

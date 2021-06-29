@@ -13,10 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ujjawal">
-        <activity android:name=".transaction.AddContactActivity">
-
-        </activity>
+        <activity android:name=".hp.UserRegistrationActivity"></activity>
+        <activity android:name=".ChooseUserTypeActivity" />
+        <activity android:name=".transaction.AddContactActivity" />
         <activity android:name=".OtpActivity" />
+        <activity android:name=".SettingActivity"/>
         <activity android:name=".LoginActivity" />
         <activity android:name=".MandiRateActvity" />
         <activity android:name=".MainActivity" />

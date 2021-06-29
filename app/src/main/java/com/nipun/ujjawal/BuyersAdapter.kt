@@ -18,8 +18,6 @@ class BuyersAdapter (
 
     ) : RecyclerView.Adapter<BuyersAdapter.ClassViewHolder>() {
 
-
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ClassViewHolder {
         val view =
             LayoutInflater.from(parent.context)

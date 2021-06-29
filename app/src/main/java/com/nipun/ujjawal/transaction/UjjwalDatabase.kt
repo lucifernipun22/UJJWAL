@@ -2,10 +2,11 @@ package com.nipun.ujjawal.transaction
 
 import android.content.Context
 import androidx.room.*
+import com.nipun.ujjawal.hp.local.UserEntity
 import com.nipun.okcredit.Data.local.CustomerEntity
 
 
-@Database(entities = [CustomerEntity::class], version = 1,exportSchema = false)
+@Database(entities = [CustomerEntity::class,UserEntity::class], version = 1,exportSchema = false)
 @TypeConverters(value = [CustomerConverter::class])
 abstract class UjjwalDatabase : RoomDatabase() {
 

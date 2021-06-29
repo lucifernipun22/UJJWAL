@@ -1,6 +1,7 @@
 package com.nipun.ujjawal.fragments
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -19,6 +20,7 @@ import com.denzcoskun.imageslider.interfaces.TouchListener
 import com.denzcoskun.imageslider.models.SlideModel
 import com.nipun.ujjawal.MandiRateActvity
 import com.nipun.ujjawal.R
+import com.nipun.ujjawal.SettingActivity
 import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_home.view.*
 
@@ -46,6 +48,16 @@ class HomeFragment : Fragment() , com.nipun.ujjawal.ItemClickListener {
         super.onViewCreated(view, savedInstanceState)
         /*initViews(view)*/
         image_slider = view?.findViewById(R.id.image_slider);
+        var emergencyNumber = view?.findViewById<CardView>(R.id.profile)
+        emergencyNumber.setOnClickListener { view ->
+            val intent = Intent(activity, SettingActivity::class.java)
+            startActivity(intent)
+        }
+        var call = view?.findViewById<CardView>(R.id.help2)
+        call.setOnClickListener { view ->
+            val phoneIntent = Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "121", null))
+            startActivity(phoneIntent)
+        }
 
 
 

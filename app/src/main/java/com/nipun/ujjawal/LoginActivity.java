@@ -17,6 +17,7 @@ public class LoginActivity extends AppCompatActivity {
 
     EditText editTextPhone;
     Button buttonContinue;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,5 +77,6 @@ public class LoginActivity extends AppCompatActivity {
 
         editor.apply();
     }
+
 
 }

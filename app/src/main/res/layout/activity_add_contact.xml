@@ -19,8 +19,6 @@
             layout="@layout/app_bar_contact" />
     </androidx.cardview.widget.CardView>
 
-
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tl_name"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"

@@ -31,14 +31,13 @@ public class OtpActivity extends AppCompatActivity {
     //public String verificationId;
     //public FirebaseAuth mAuth;
 
-
     EditText editText;
     AppCompatButton buttonSignIn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_otp);
-
 
        // mAuth = FirebaseAuth.getInstance();
         Toast.makeText(this,"2 3 4 5 6 7",Toast.LENGTH_LONG).show();
@@ -79,13 +78,15 @@ public class OtpActivity extends AppCompatActivity {
                     editText.requestFocus();
                     return;
                 }
-                Intent intent = new Intent(OtpActivity.this, MainActivity.class);
+                Intent intent = new Intent(OtpActivity.this, ChooseUserTypeActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                intent.putExtra("MobileNO",phoneNumber);
 
                 startActivity(intent);
                 saveData();
             }
         });
+        Toast.makeText(this,phoneNumber,Toast.LENGTH_LONG).show();
     }
     private void saveData() {
         sharedPrefNames name = new sharedPrefNames();
